@@ -216,7 +216,7 @@ body{
   display:inline-block;
 }
 .img-back{
-  background: url(../images/back3.png) 100% no-repeat;
+  background: url(../images/backgrounds/back3.png) 100% no-repeat;
   background-size: cover;
   background-position:center center;
 }
@@ -390,10 +390,10 @@ body{
   padding-left: 88px;
 }
 .list-content-1{
-  list-style-image: url(../images/list-1.png);
+  list-style-image: url(../images/icons/list-1.png);
 }
 .list-content-2{
-  list-style-image: url(../images/list-2.png);
+  list-style-image: url(../images/icons/list-2.png);
   margin-top: -15px;
 }
 
@@ -493,7 +493,7 @@ body{
 
 /* - Panel content - */
 .panel-content{
-  background: url(../images/back1.png);
+  background: url(../images/backgrounds/back1.png);
   -webkit-box-shadow: inset 0px -600px 500px -500px #fff;
   box-shadow: inset 0 600px 500px -500px #fff;
 }
@@ -509,7 +509,7 @@ body{
   padding-top:70px;	
 }
 .footer-back{
-  background:url(../images/back2.png)no-repeat;
+  background:url(../images/backgrounds/back2.png)no-repeat;
   background-size:cover;
 }
 
