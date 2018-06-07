@@ -147,7 +147,7 @@ body{
   background: #2788e6;
 }
 .navbar-right{
-  margin-right: -5px;
+  margin-right: -6%;
   float: right!important;
 }
 
@@ -237,7 +237,7 @@ body{
   box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.1);
   width:100%;
   text-align:center;
-  margin-top:-32px;
+  margin-top:-25px;
 }
 .form-control {
   height: 50px;
@@ -344,6 +344,8 @@ body{
   font-family: 'Rubik medium';
   color:#9daebf;  
   font-size:15px;
+  margin-top: 35px;
+
 }
 .item p{
   margin-left: 6%;
@@ -351,17 +353,39 @@ body{
   font-family: 'Rubik light';
   color:#897f7f;
   font-size: 15px;
+  margin-top:15px;
+}
+.item-2{
+  width:100%;
+  text-align:center;
+  margin-top:5%;
+  display:inline-block;
+}
+.item-2 h6{
+  font-family: 'Rubik medium';
+  color:#9daebf;  
+  font-size:15px;
+  margin-top: 35px;
+
+}
+.item-2 p{
+  margin-left: 6%;
+  margin-right: 6%;
+  font-family: 'Rubik light';
+  color:#897f7f;
+  font-size: 15px;
+  margin-top:15px;
 }
 
 /* - Media Content - */
 .media-content{
-  width:30%;
+  width:auto;
   display:inline-block;
   background-color:#fff;
   box-shadow: -2px -1px 20px 0 rgba(0, 0, 0, 0.1);
   height:85px;
   border-radius: 10px;
-  margin-right: 34px;
+  margin-right: 2%;
   margin-top:35px;
   
 }
@@ -404,13 +428,21 @@ body{
 }
 .panel-button{
   width:100%;
-  text-align:center;
+  text-align: center;
+  -webkit-box-shadow: inset 0px -600px 500px -500px #fff;
+  box-shadow: inset 0px -500px 500px -500px #fff;
 }
 
 /* - Media Object - */
 .media-object{
-  display:inline-block;
-  width: 49%;
+  display: inline-block;
+  width: auto;
+  border-right: 2px solid #e8e8e8;
+  margin-top: -30px;
+  height: 130px;
+  margin-bottom: -30px;
+  padding-top: 25px;
+  margin-left: 95px;
 }
 .media-object p{
   display: inline-block;
@@ -441,12 +473,15 @@ body{
 .media-object img{
   margin-bottom: -20px;
 }
+.no-border{
+  border-right:none;
+}
 
 /* - Arrow - */
 .arrow{
   float: right;
-  padding-right: 25%;
   margin-top: -15px;
+  padding-right: 65px;
 }
 
 /* - Media Inline - */
@@ -504,6 +539,7 @@ body{
   margin-top:120px;
 }
 
+
 /* - Footer - */
 .footer{
   padding-top:70px;	
@@ -515,11 +551,14 @@ body{
 
 /* - Copyright - */
 .copyright{
-  padding-top:70px;
+  padding-top: 25px;
   font-family: 'Rubik light';
-  width:100%;
-  text-align:center;
+  width: 100%;
+  text-align: center;
+  height: 100px;
 }
+
+
 
 
 @-ms-viewport{
@@ -530,6 +569,11 @@ body{
   /* - Styling Logo - */
   .logo{
     margin-left:0;
+  }
+  
+  /* - Navbar - */
+  .navbar-right{
+    margin-right:0;
   }
 }
 
@@ -545,6 +589,10 @@ body{
   .media-content {
     width: 40%;
 }
+	.list-panel{
+  width:100%;
+  text-align:center;
+}
 
   /* - Input Box - */
   .form-inline .input-group {
@@ -557,6 +605,8 @@ body{
 	/* - Media Content - */
 	.media-content {
     width: 44%;
+	margin-right: 2%;
+    margin-left: 2%;
 }
 
 	/* - Button - */
@@ -687,7 +737,7 @@ body{
     box-shadow: -2px -1px 20px 0 rgba(0, 0, 0, 0.1);
     height: 85px;
     border-radius: 10px;
-    margin-right: 34px;
+    margin-right: 2%;
     margin-top: 35px;
 }
 
@@ -702,9 +752,11 @@ body{
 
 	.media-object {
     display: inline-block;
-    width: 100%;
-    padding-top: 25px;
+    width: 85%;
+    padding-top: 40px;
     padding-bottom: 30px;
+    height: 170px;
+	border-right:none;
 }
 
 	/* - Button - */
@@ -770,8 +822,25 @@ body{
 
 	/* - Media Content - */
 	.media-content {
-    width: auto;
-	height:auto;
+    width: 60%;
+	height:90px;
+}
+
+	/* - Media Object - */
+	.media-object {
+    display: inline-block;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 170px;
+    border-right: none;
+	margin-left:0;
+}
+
+	/* - Button - */
+	.button {
+    width: 75%;
+    margin-top: 70px;
 }
 
 }
@@ -784,7 +853,7 @@ body{
     font-family: 'Rubik light';
     font-size: 30px;
     color: #2788e6;
-    padding-left: 25px;
+    padding-left: 0;
     width: 100%;
     margin: 0;
 	text-align:center;
@@ -804,6 +873,7 @@ body{
 
 	.media-object{
 	text-align:center;
+	height:280px;
 }
 
 	.arrow{
@@ -817,17 +887,23 @@ body{
     font-family: 'Rubik light';
     font-size: 30px;
     color: #eab244;
-    padding-left: 25px;
+    padding-left: 0;
     width: 100%;
     margin: 0;
 	padding-top:30px;
+}
+
+	/* - Media Content - */
+	.media-content {
+    width: 80%;
+	height:90px;
 }
 }
 
 @media screen and (max-width: 319px){
 	/* - Button - */
 	.btn-blue {
-    width: 100%;
+    width: 92%;
 	margin-top:20px;
 }
 	.btn-orange {
