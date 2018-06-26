@@ -292,20 +292,24 @@ body{
 }
 .circle{
   color: #b4acac;
-  padding: 10px;
+  padding: 13px;
   font-family: 'Helvetica', sans-serif;
   font-size: 14px;
   border-radius: 25px;
-  border:1px solid #b4acac;
+  border: 1px solid #b4acac;
   margin-right: 30px;
   margin-left: 30px;
   font-style: normal;
-  width: 40px;
-  height: 40px;
+  width: 47px;
+  height: 47px;
   background-color: #fff;
   display: inline-block;
   font-family: 'Rubik medium';
  }
+.circle-border{
+  display:inline-block;
+  width:auto;
+}
  
 /* - Title Item - */
 .title-item{
